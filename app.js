@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('from Node.js on Elastic Beanstalk(prod enviroment)!');
+  res.end('Hello World from Node.js on Elastic Beanstalk(prod enviroment)!');
 });
 
 const PORT = process.env.PORT || 3000;
